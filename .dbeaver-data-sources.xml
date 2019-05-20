@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mysql5-1698c4f9252-5d8b0ab282f66256" provider="mysql" driver="mysql5" name="MySQL - localhost" save-password="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="" url="jdbc:mysql://localhost:3306/" user="root" password="Aw0DMhAaHEBPcuc=" home="/usr" type="dev"/>
+		<virtual-meta-data>
+			<container name="model">
+				<container name="dblivraria">
+					<entity name="livro">
+						<constraint name="PRIMARY" type="VIRTUAL KEY">
+							<attribute name="titulo"/>
+							<attribute name="isbn"/>
+							<attribute name="genero"/>
+							<attribute name="dataEdicao"/>
+							<attribute name="editora"/>
+							<attribute name="autor"/>
+							<attribute name="status"/>
+							<attribute name="preco"/>
+						</constraint>
+					</entity>
+				</container>
+			</container>
+		</virtual-meta-data>
+	</data-source>
+	<filters/>
+</data-sources>
